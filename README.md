@@ -55,13 +55,13 @@ Although it is not recommended to train on a local PC, you may want to run local
 1. [OPTIONAL] Create a virtual environment.
    ```shell script
    conda update conda
-   conda create -n script python=3.7 
+   conda create -n script python=3.6.5
    conda activate script
-   conda install pytorch
-   conda install matplotlib
-   conda install tqdm
-   conda install ipykernel
-   conda install jupyter
+   conda install pytorch=1.3.1
+   conda install matplotlib==3.0.3
+   conda install tqdm==4.38
+   conda install ipykernel==4.8.2
+   conda install jupyter==1.0.0
    ipython kernel install --name=script
    ```
    
