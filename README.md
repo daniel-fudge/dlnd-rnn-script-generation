@@ -60,6 +60,9 @@ Although it is not recommended to train on a local PC, you may want to run local
    conda install pytorch
    conda install matplotlib
    conda install tqdm
+   conda install ipykernel
+   conda install jupyter
+   ipython kernel install --name=script
    ```
    
 1. [OPTIONAL] Activate the virtual environment.
