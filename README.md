@@ -55,8 +55,8 @@ Although it is not recommended to train on a local PC, you may want to run local
 1. [OPTIONAL] Create a virtual environment.
    ```shell script
    conda update conda
-   conda create -n pytorch_p36 python=3.7 
-   conda activate pytorch_p36
+   conda create -n script python=3.7 
+   conda activate script
    conda install pytorch
    conda install matplotlib
    conda install tqdm
@@ -64,7 +64,7 @@ Although it is not recommended to train on a local PC, you may want to run local
    
 1. [OPTIONAL] Activate the virtual environment.
    ```shell script
-   conda activate pytorch_p36
+   conda activate script
    ```
 
 1. Launch Jupyter.
